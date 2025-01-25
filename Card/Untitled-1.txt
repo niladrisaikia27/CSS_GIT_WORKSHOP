@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int n1,i=1,res=1;
+    cout<<"enter a value: ";
+    cin>>n1;
+    cout<<"the factorial of "<<n1<<"is: ";
+    while(i<n1)
+    {
+        res=res*i;
+        i+=1;
+    }
+    cout<<res;
+    return 0;
+}
